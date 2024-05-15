@@ -1,0 +1,90 @@
+.service-header{
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.ser-vice{
+    font-family: Allura;
+    font-size: 23px;
+}
+
+.nova-text{
+    font-family: Proxima Nova;
+}
+
+.serviceimg{
+    height: 23rem;
+    margin-left: 50rem;
+    margin-top: -20%;
+}
+
+.dineus{
+    margin-top: 3rem;
+    height: 35rem;
+    
+}
+
+.dineheader{
+    margin-top: -20%;
+    margin-left: 10rem;
+    color:#ffff;
+    font-size: 20px;
+}
+
+.privateparty{
+    margin-top: 8rem;
+    margin-left: 5rem;
+}
+
+.qrscanner{
+    background-color: #ffff;
+   gap: 45px;
+    display: flex;
+    border-radius: 15px, 15px, 15px, 10px;
+    margin-right: 65%;
+   
+}
+
+.image6{
+    margin-left: 45rem;
+    margin-top: -25%;
+}
+
+.img6{
+    height: 22rem;
+}
+
+.image7{
+    margin-left: 5rem;
+    margin-top: 6rem;
+}
+
+.categring{
+  /* margin-top: -25%; */
+   margin-left: 5rem;
+  
+    
+}
+
+.query{
+    text-align: center;
+    margin-top: 5rem;
+    background-color: #F5F6F7;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.cater{
+    /* display: flex; */
+   
+}
+.watchbtn{
+   height: 2rem;
+    width: 10rem;
+   
+}
+.query{
+    height : 12rem;
+    width: 65rem;
+    padding-top: 0.2rem;
+}

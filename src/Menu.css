@@ -1,0 +1,102 @@
+.menuheader{
+    text-align: center;
+    font-family: Allura;
+    font-size: 29px;
+   
+}
+
+.menutopic{
+    text-align: center;
+}
+
+.headerscan{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.qrcode{
+    height: 10rem;
+}
+
+.androidbtn{
+    height: 22px;
+    width: 30px;
+}
+
+.scanqr{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.color4{
+    background-color:  #FAFBFB;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 380px;
+}
+
+.momoflex1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.momoflex2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.brush2{
+    height: 12px;
+    margin-top: 2rem;
+}
+
+.momoheader{
+    text-align: center;
+    font-family: Chela One;
+    font-size: 22px;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.newbtn{
+    margin-top: -10%;
+
+}
+
+.newbtninner{
+    background-color: #D95103;
+    color: #ffff;
+    border-style: none;
+    height: 20px;
+    border-radius: 20px 5px 10px 6px;
+}
+
+.popmomo{
+    margin-top: -10%;
+}
+
+.popular{
+    background-color:  #C71720;
+    color: #ffff;
+    border-style: none;
+    height: 20px;
+    border-radius: 20px 5px 10px 6px;
+}
+
+.recommomo{
+    margin-top: -10%;
+}
+
+.recommend{
+    background-color:  #0072E3;
+    color: #ffff;
+    border-style: none;
+    height: 20px;
+    border-radius: 20px 5px 10px 6px;
+}

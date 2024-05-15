@@ -1,0 +1,114 @@
+/* Default styles */
+
+.contactheader {
+    text-align: center;
+    font-family: Allura;
+    margin-top: 5rem;
+    font-size: 29px;
+}
+
+.contactdesc {
+    text-align: center;
+}
+
+.cardflexer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1 {
+    border-radius: 20px;
+    border: 1px solid whitesmoke; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin: 10px; 
+    height: 10rem;
+    width: 15rem;
+    margin-right: 50px; 
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card2 {
+    border-radius: 20px;
+    border: 1px solid whitesmoke; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin: 10px; 
+    height: 10rem;
+    width: 15rem;
+    margin-right: 50px; 
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card3 {
+    border-radius: 20px;
+    border: 1px solid whitesmoke; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin: 10px; 
+    height: 10rem;
+    width: 15rem;
+    margin-right: 50px; 
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact.form {
+    width: 550px; 
+    height: 800px;
+    background-color: white;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+  }
+  
+  .contact.form label {
+    display: block; 
+    margin-bottom: 10px;
+  }
+  
+  .contact.form input[type="text"],
+  .contact.form input[type="email"],
+  .contact.form input[type="number"],
+  .contact.form select,
+  .contact.form textarea {
+    width: 100%; 
+    padding: 8px; 
+    margin-top: 5px; 
+    box-sizing: border-box; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+  }
+  
+  .contact.form select {
+    width: calc(100% - 40px); 
+    margin-right: 10px; 
+  }
+  
+ 
+
+
+
+.contactformheader {
+    display: flex;
+    gap: 4rem;
+    background-color: whitesmoke;
+}
+
+.watchbtn{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+/* Media query for responsiveness */
+
+@media only screen and (max-width: 768px) {
+    .cardflexer {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .contactformheader {
+        flex-direction: column; 
+        align-items: center;
+        gap: 2rem; 
+    }
+}

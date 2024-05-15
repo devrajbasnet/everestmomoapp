@@ -1,0 +1,131 @@
+/* Default styles */
+
+.mainallergyheader {
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.header {
+    font-family: Allura;
+    font-size: 23px;
+}
+
+.adviceimg {
+    height: 23rem;
+    margin-left: 50rem;
+    margin-top: -25%;
+}
+
+.carddesign {
+    border: solid 3px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3rem;
+    border-radius: 10px;
+    border-color: #0C6967;
+    position: relative;
+    z-index: 2;
+    background-color: white;
+}
+
+.brush3 {
+    height: 12px;
+    margin-top: 2rem;
+    margin-left: 10%;
+}
+
+.brush4 {
+    height: 12px;
+    margin-top: 2rem;
+    margin-right: 10%;
+}
+
+.inged {
+    font-family: Chela One;
+}
+
+.loremallergy {
+    justify-content: center;
+    margin-left: 10rem;
+}
+
+.masala {
+    height: 45rem;
+    position: absolute;
+    z-index: 1;
+    margin-top: -15%;
+    margin-left: 10rem;
+}
+
+.oval1 {
+    position: absolute;
+    height: 20rem;
+    margin-left: 23rem;
+}
+
+.oval2 {
+    position: absolute;
+    height: 25rem;
+    margin-left: 50rem;
+    margin-top: -26%;
+}
+
+/* Media query for responsiveness */
+
+@media only screen and (max-width: 1200px) {
+    .mainallergyheader,
+    .adviceimg,
+    .carddesign,
+    .brush3,
+    .brush4,
+    .loremallergy,
+    .masala,
+    .oval1,
+    .oval2 {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .adviceimg {
+        margin-left: 2rem;
+        margin-top: 0;
+    }
+
+    .oval1 {
+        margin-left: 5rem;
+    }
+
+    .oval2 {
+        margin-left: 10rem;
+        margin-top: -10%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mainallergyheader,
+    .adviceimg,
+    .carddesign,
+    .brush3,
+    .brush4,
+    .loremallergy,
+    .masala,
+    .oval1,
+    .oval2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .adviceimg {
+        margin-left: 1rem;
+        margin-top: 0;
+    }
+
+    .oval1 {
+        margin-left: 3rem;
+    }
+
+    .oval2 {
+        margin-left: 5rem;
+        margin-top: -5%;
+    }
+}
